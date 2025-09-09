@@ -1,0 +1,56 @@
+/* Louvado seja o Senhor */
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--secondary-color);
+    align-items: center;
+    height: 5rem;
+    position: relative;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.menuNLogo{
+    gap: 1.5rem;
+}
+
+.header__menuSandwich{
+    width: 3rem;
+    height: 3rem;
+    background-image: url('../assets/headerElements/Menu.svg');
+    display: inline-block;
+}
+
+.menu__list{
+    display: none;
+    position: absolute;
+    top: 100%;
+    list-style-type: none;
+    background-color: var(--secondary-color);
+    /* padding: 1rem 3rem; */
+}
+
+.menu__list__item{
+    padding: 1rem 3rem;
+}
+
+.menu__list__title{
+    font-weight: 700;
+    color: var(--highlight-color);
+}
+
+.menu__list__option a{
+    color: var(--tertiary-color);
+    text-decoration: none;
+}
+
+.menu__checkbox:checked ~ .menu__list{
+    display: block;
+}
+
+
