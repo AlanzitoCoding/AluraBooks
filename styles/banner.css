@@ -1,0 +1,39 @@
+.mainContent__banner{
+    background: #002F52;
+    background: var(--tertiary-color);
+    color: var(--secondary-color);
+    text-align: center;
+    padding: 2.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.mainContent__banner__textField{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.mainContent__banner__textField__title{
+    font-size: 1.125rem;
+}
+
+.mainContent__banner__textField__text{
+    font-weight: 500;
+}
+
+.mainContent__banner__searchField{
+    border: 1px solid var(--secondary-color);
+    border-radius: 29px;
+    display: flex;
+    align-items: center;
+    padding: 0.5rem 0.5rem;
+    background-color: transparent;
+    color: var(--secondary-color);
+    font-size: 0.875rem;
+}
+
+.mainContent__banner__searchField::placeholder{
+    color: var(--secondary-color);
+}
