@@ -1,0 +1,22 @@
+/* Louvado seja o Senhor */
+
+.contentSection{
+    height: 100vh;
+}
+
+.contentSection__header{
+    background-color: var(--secondary-color);
+    text-align: center;
+    color: var(--highlight-color);
+    text-transform: uppercase;
+    padding: 1rem 0 0.5rem 0;
+}
+
+.contentSection__header__title{
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+.swiper-slide img{
+    width: 100%;
+}
