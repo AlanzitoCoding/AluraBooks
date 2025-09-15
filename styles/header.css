@@ -15,6 +15,10 @@
     gap: 0.5rem;
 }
 
+.container:last-child{
+    margin-right: 1.5rem;
+}
+
 .menuNLogo{
     gap: 1.5rem;
 }
@@ -24,19 +28,24 @@
     height: 3rem;
     background-image: url('../assets/headerElements/Menu.svg');
     display: inline-block;
+    margin-left: 1.5rem;
 }
 
 .menu__list{
     display: none;
     position: absolute;
     top: 100%;
+    width: 60vw;
     list-style-type: none;
     background-color: var(--secondary-color);
-    /* padding: 1rem 3rem; */
 }
 
-.menu__list__item{
-    padding: 1rem 3rem;
+.menu__list, .menu__list__item{
+    padding: 1em;
+}
+
+.menu__checkbox{
+    display: none;
 }
 
 .menu__list__title{
@@ -45,12 +54,17 @@
 }
 
 .menu__list__option a{
-    color: var(--tertiary-color);
+    background: var(--tertiary-color);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-decoration: none;
+}
+
+.menu__checkbox:checked ~ .header__menuSandwich{
+    background-color: var(--highlight-color);
 }
 
 .menu__checkbox:checked ~ .menu__list{
     display: block;
 }
-
-

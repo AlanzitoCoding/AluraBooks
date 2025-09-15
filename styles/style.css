@@ -11,16 +11,19 @@
 :root{
     --primary-color: #EBECEE;
     --secondary-color: #FFFFFF;
-    --tertiary-color: #002F52;
+    --tertiary-color: linear-gradient(97.54deg,rgba(0, 47, 82, 1) 0%, rgba(50, 101, 137, 1) 100%);
     --highlight-color: #EB9B00;
 
-    --main-font-family: 'Poppins', sans-serif;
+    --main-font-family: 'Poppins';
 
     --main-font-size: 1rem;
+
+    --main-font-weight: 400;
 }
 
 body{
     background-color: var(--primary-color);
     font-family: var(--main-font-family);
     font-size: var(--main-font-size);
+    font-weight: var(--main-font-weight);
 }
