@@ -1,9 +1,5 @@
 /* Louvado seja o Senhor */
 
-.contentSection{
-    height: 100vh;
-}
-
 .contentSection__header{
     background-color: var(--secondary-color);
     text-align: center;
@@ -17,6 +13,70 @@
     font-weight: 700;
 }
 
+.swiper-pagination{
+    position: initial;
+    padding: 0.5rem 0;
+}
+
 .swiper-slide img{
     width: 100%;
+}
+
+.contentSection__bookCard{
+    background-color: var(--secondary-color);
+    margin: 1.2rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    border-radius: 10px;
+    gap: 2.2rem;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+}
+
+.contentSection__bookCard__infoField{
+    text-align: left;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.contentSection__bookCard__infoField__title{
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--highlight-color);
+}
+
+.contentSection__bookCard__infoField__bookTitle{
+    color: var(--bookcard-title-color);
+    font-size: 1.125rem;
+    font-weight: 700;
+}
+
+.contentSection__bookCard__infoField__bookDesc{
+    font-size: 0.875rem;
+}
+
+.contentSection__bookCard__btnField{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bookCard__icon img{
+    width: 35%;
+}
+
+
+.contentSection__bookCard__btnField__btn{
+    background-color: var(--highlight-color);
+    color: var(--secondary-color);
+    text-decoration: none;
+    padding: 0.6rem 1rem;
+    text-align: center;
+    font-weight: 700;
+    width: 8.2rem;
+}
+
+.contentSection__bookCard__infoField__stars{
+    width: 5em;
 }
