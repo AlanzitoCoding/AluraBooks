@@ -1,0 +1,57 @@
+/* Louvado seja o Senhor */
+
+.mainContent__topicsNewsSection{
+    background-color: var(--secondary-color);
+    padding: 1rem 0;
+}
+
+.mainContent__topicsNewsSection__topicField{
+    background: var(--tertiary-color);
+    color: var(--secondary-color);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+    padding: 1.5rem 0;
+}
+
+.mainContent__topicsNewsSection__topicField__title{
+    font-weight: 300;
+}
+
+.mainContent__topicsNewsSection__topicField__btnList{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 0.7rem;
+}
+
+.mainContent__topicsNewsSection__topicField__btnList__listItem{
+    list-style-type: none;
+}
+
+.mainContent__topicsNewsSection__topicField__btnList__listItem__btn{
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: var(--secondary-color);
+    background-color: var(--highlight-color);
+    padding: 1rem 1.5rem;
+    border: none;
+}
+
+.mainContent__topicsNewsSection__newsField{
+    margin: 1rem;
+    background: var(--tertiary-color);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mainContent__topicsNewsSection__newsField__title{
+    font-weight: 500;
+    font-size: 1.125rem;
+}
+
+.mainContent__topicsNewsSection__newsField__text{
+    font-weight: 300;
+}
