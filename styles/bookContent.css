@@ -9,7 +9,7 @@
 }
 
 .contentSection__header__title{
-    font-size: 1.125rem;
+    font-size: var(--bigger-font-size);
     font-weight: 700;
 }
 
@@ -47,12 +47,12 @@
 
 .contentSection__bookCard__infoField__bookTitle{
     color: var(--bookcard-title-color);
-    font-size: 1.125rem;
+    font-size: var(--bigger-font-size);
     font-weight: 700;
 }
 
 .contentSection__bookCard__infoField__bookDesc{
-    font-size: 0.875rem;
+    font-size: var(--smaller-font-size);
 }
 
 .contentSection__bookCard__btnField{

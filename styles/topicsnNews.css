@@ -16,14 +16,15 @@
 }
 
 .mainContent__topicsNewsSection__topicField__title{
+    font-size: var(--main-font-size);
     font-weight: 300;
 }
 
 .mainContent__topicsNewsSection__topicField__btnList{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    gap: 0.7rem;
+    justify-content: center;
+    gap: 1rem;
 }
 
 .mainContent__topicsNewsSection__topicField__btnList__listItem{
@@ -31,7 +32,7 @@
 }
 
 .mainContent__topicsNewsSection__topicField__btnList__listItem__btn{
-    font-size: 0.875rem;
+    font-size: var(--smaller-font-size);
     font-weight: 700;
     color: var(--secondary-color);
     background-color: var(--highlight-color);
@@ -41,17 +42,44 @@
 
 .mainContent__topicsNewsSection__newsField{
     margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.mainContent__topicsNewsSection__newsField__textField{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
     background: var(--tertiary-color);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.mainContent__topicsNewsSection__newsField__title{
+.mainContent__topicsNewsSection__newsField__textField__title{
     font-weight: 500;
-    font-size: 1.125rem;
+    font-size: var(--bigger-font-size);
 }
 
-.mainContent__topicsNewsSection__newsField__text{
+.mainContent__topicsNewsSection__newsField__textField__text{
     font-weight: 300;
+}
+
+.mainContent__topicsNewsSection__newsField__emailField{
+    border: 1px solid var(--bookcard-title-color);
+    border-radius: 24px;
+    padding: 0.6rem;
+    display: flex;
+    align-items: center;
+}
+
+.mainContent__topicsNewsSection__newsField__emailField::placeholder{
+    background-image: url('../assets/Email.svg');
+    background-repeat: no-repeat;
+    background-position: 0.75rem;
+    color: var(--bookcard-title-color);
+    padding: 0 3rem;
+    font-size: var(--main-font-size);
+    font-family: var(--main-font-family);
 }

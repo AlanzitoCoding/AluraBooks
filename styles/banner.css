@@ -18,7 +18,7 @@
 }
 
 .mainContent__banner__textField__title{
-    font-size: 1.125rem;
+    font-size: var(--bigger-font-size);
 }
 
 .mainContent__banner__textField__text{
@@ -30,15 +30,16 @@
     border-radius: 29px;
     display: flex;
     align-items: center;
-    padding: 0.5rem 0.5rem;
+    padding: 0.5rem;
     background-color: transparent;
     color: var(--secondary-color);
-    font-size: 0.875rem;
+    font-size: var(--smaller-font-size);
 }
 
 .mainContent__banner__searchField::placeholder{
     color: var(--secondary-color);
-    font-size: 0.875rem;
+    font-size: var(--smaller-font-size);
+    font-family: var(--main-font-family);
     text-align: center;
     background-image: url(../assets/Pesquisa.svg);
     background-repeat: no-repeat;

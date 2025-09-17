@@ -4,6 +4,7 @@
 @import url('/styles/banner.css');
 @import url('/styles/bookContent.css');
 @import url('/styles/topicsnNews.css');
+@import url('/styles/footer.css');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 *{
@@ -17,10 +18,14 @@
     --tertiary-color: linear-gradient(97.54deg,rgba(0, 47, 82, 1) 0%, rgba(50, 101, 137, 1) 100%);
     --highlight-color: #EB9B00;
     --bookcard-title-color: #002F52;
+    --footer-border-color: #858585;
+    --footer-bg-color: #F9F9F9;
 
     --main-font-family: 'Poppins';
 
     --main-font-size: 1rem;
+    --bigger-font-size: 1.125rem;
+    --smaller-font-size: 0.875rem;
 
     --main-font-weight: 400;
 }
