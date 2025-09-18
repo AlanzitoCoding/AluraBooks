@@ -62,10 +62,51 @@
     text-decoration: none;
 }
 
-.menu__checkbox:checked ~ .header__menuSandwich{
-    background-color: var(--highlight-color);
+.header__title{
+    display: none;
 }
 
 .menu__checkbox:checked ~ .menu__list{
     display: block;
+}
+
+@media screen and (min-width: 1024px) {
+    .header__menuSandwich{
+        display: none;
+    }    
+
+    .header__logo{
+        margin-left: 5rem;
+    }
+
+    .header__title{
+        display: block;
+        font-family: var(--header-title-font-family);
+        font-size: 1.875rem;
+        font-weight: var(--main-font-weight);
+    }
+
+    .header__title__highlight{
+        font-weight: 700;
+    }
+
+    .header__refs{
+        display: flex;
+        gap: 2.5rem;
+    }
+
+    .header__refs__menuRef{
+        font-style: none;
+        text-decoration: none;
+        color: var(--header-font-color);
+        font-size: var(--main-font-size);
+    }
+
+    .header__icons{
+        gap: 3.75rem;
+    }
+
+    .fav__icon{
+        display: none;
+    }
 }
