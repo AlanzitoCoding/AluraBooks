@@ -45,3 +45,26 @@
     background-repeat: no-repeat;
     background-position: 2rem;
 }
+
+@media screen and (min-width: 1024px){
+    .mainContent__banner{
+        padding: 4.8rem 14.5rem;
+    }
+
+    .mainContent__banner__textField__title{
+        font-size: var(--bigger-tablet-font-size);
+    }
+
+    .mainContent__banner__textField__text{
+        font-weight: 500;
+    }
+
+    .mainContent__banner__searchField{
+        padding: 1.2rem;
+    }
+
+    .mainContent__banner__searchField::placeholder{
+        font-size: var(--main-font-size);
+        background-position: 5.75rem;
+    }
+}

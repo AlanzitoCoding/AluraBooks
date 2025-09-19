@@ -31,6 +31,14 @@
     margin-left: 1.5rem;
 }
 
+.menu__checkbox__tablet{
+    display: none;
+}
+
+.header__refs__menuRef{
+    display: none;
+}
+
 .menu__list{
     display: none;
     position: absolute;
@@ -75,8 +83,12 @@
         display: none;
     }    
 
+    .header__refs__menuRef{
+        display: block;
+    }
+
     .header__logo{
-        margin-left: 5rem;
+        margin-left: 3.5rem;
     }
 
     .header__title{
@@ -95,11 +107,25 @@
         gap: 2.5rem;
     }
 
-    .header__refs__menuRef{
+    .header__refs__menuRef, .header__refs__menuRef__link{
         font-style: none;
         text-decoration: none;
         color: var(--header-font-color);
         font-size: var(--main-font-size);
+        text-transform: uppercase;
+    }
+
+    .menu__list__tablet{
+        width: auto;
+    }
+
+    .menu__checkbox__tablet:checked ~ .menu__list{
+        display: block;
+    }
+
+    .menu__checkbox__tablet:checked ~ .header__refs__categories{
+        background: var(--tertiary-color);
+        color: var(--secondary-color);
     }
 
     .header__icons{

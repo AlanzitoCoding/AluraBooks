@@ -80,3 +80,33 @@
 .contentSection__bookCard__infoField__stars{
     width: 5em;
 }
+
+@media screen and (min-width: 1024px){
+    .contentSection__header{
+        padding: 2.5rem 0 1rem 0;
+    }
+
+    .contentSection__header__title{
+        font-size: 1.5rem;
+    }
+
+    .swiper-pagination{
+        margin: 2rem 0 3rem 0;
+    }
+
+    .swiper{
+        width: 75%;
+    }
+
+    .swiper-wrapper{
+        padding: 0.5rem 5rem;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next{
+        display: flex;
+        position: absolute;
+        z-index: 100;
+    }
+
+}

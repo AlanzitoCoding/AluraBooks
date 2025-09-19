@@ -42,13 +42,12 @@
             <img src="assets/headerElements/Logo.svg" alt="logo da AluraBooks" class="header__icon header__logo">
             <h1 class="header__title"><b class="header__title__highlight">Alura</b>Books</h1>
         </div>
-        <div class="header__refs">
-            <input type="checkbox" name="menu" id="menu" class="menu__checkbox">
-            <label for="menu">
-                <p class="header__refs__menuRef">Categorias</p>
+        <ul class="header__refs">
+            <input type="checkbox" name="menu__refs" id="menu__refs" class="menu__checkbox__tablet">
+            <label for="menu__refs">
+                <li class="header__refs__menuRef header__refs__categories">Categorias</li>
             </label>
-            <ul class="menu__list">
-                <li class="menu__list__title menu__list__item">Categorias</li>
+            <ul class="menu__list menu__list__tablet">
                 <li class="menu__list__option menu__list__item">
                     <a href="#">PROGRAMAÇÃO</a>
                 </li>
@@ -65,9 +64,9 @@
                     <a href="#">DESIGN & UX</a>
                 </li>
             </ul>
-            <a class="header__refs__menuRef" href="#">Favoritos</a>
-            <a class="header__refs__menuRef" href="#">Minha Estante</a>
-        </div>
+            <li class="header__refs__menuRef"><a class="header__refs__menuRef__link" href="#">Favoritos</a></li>
+            <li class="header__refs__menuRef"><a class="header__refs__menuRef__link" href="#">Minha Estante</a></li>
+        </ul>
         <div class="container header__icons">
             <a href="#"><img src="assets/headerElements/Favoritos.svg" alt="botão de favoritos" class="header__icon fav__icon"></a>
             <a href="#"><img src="assets/headerElements/Compras.svg" alt="botão de compras" class="header__icon"></a>
@@ -96,6 +95,8 @@
                         <div class="swiper-slide"><img src="./assets/bookImages/UX.png" alt="Livro sobre UX Estratégico da Alura Books"></div>
                         <div class="swiper-slide"><img src="./assets/bookImages/Arquitetura.png" alt="Livro sobre Arquitetua de Software Distribuído da Alura Books"></div>
                     </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                 </div>
             <div class="mainContent__latestLaunchesSection__bookCard contentSection__bookCard">
                 <div class="mainContent__latestLaunchesSection__bookCard__infoField contentSection__bookCard__infoField">
@@ -131,6 +132,8 @@
                         <div class="swiper-slide"><img src="./assets/bookImages/UX.png" alt="Livro sobre UX Estratégico da Alura Books"></div>
                         <div class="swiper-slide"><img src="./assets/bookImages/Arquitetura.png" alt="Livro sobre Arquitetua de Software Distribuído da Alura Books"></div>
                     </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                 </div>
             <div class="mainContent__bestSellersSection__bookCard contentSection__bookCard">
                 <div class="mainContent__bestSellersSection__bookCard__infoField contentSection__bookCard__infoField">
