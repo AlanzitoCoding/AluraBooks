@@ -132,7 +132,7 @@
                         <div class="swiper-slide"><img src="./assets/bookImages/UX.png" alt="Livro sobre UX Estratégico da Alura Books"></div>
                         <div class="swiper-slide"><img src="./assets/bookImages/Arquitetura.png" alt="Livro sobre Arquitetua de Software Distribuído da Alura Books"></div>
                     </div>
-                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-prev"></div>  
                     <div class="swiper-button-next"></div>
                 </div>
             <div class="mainContent__bestSellersSection__bookCard contentSection__bookCard">
@@ -202,14 +202,18 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
     <script>
         const swiper = new Swiper('.swiper', {
-        spaceBetween: 10,
-        slidesPerView: 3,
-        loop: true,
-        pagination: {
-            el: '.swiper-pagination',
-            type: 'bullets',
-        },
-        freeMode: true,
+            spaceBetween: 10,
+            slidesPerView: 3,
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+            },
+            freeMode: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
         });
     </script>
 </body>

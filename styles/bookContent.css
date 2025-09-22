@@ -22,6 +22,12 @@
     width: 100%;
 }
 
+.swiper-button-prev,
+.swiper-button-next{
+    display: none;
+    top: 0;
+}
+
 .contentSection__bookCard{
     background-color: var(--secondary-color);
     margin: 1.2rem 1.5rem;
@@ -104,9 +110,9 @@
 
     .swiper-button-prev,
     .swiper-button-next{
-        display: flex;
-        position: absolute;
-        z-index: 100;
+        display: block;
+        background: var(--tertiary-color);
+        border-radius: 50%;
+        padding: 1rem;
     }
-
 }
