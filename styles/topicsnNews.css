@@ -85,3 +85,42 @@
     font-size: var(--main-font-size);
     font-family: var(--main-font-family);
 }
+
+@media screen and (min-width: 1024px){
+    .mainContent__topicsNewsSection__topicField__title{
+        font-size: 1.5rem;
+    }
+
+    .mainContent__topicsNewsSection__topicField__btnList{
+        padding: 1rem 1.5rem;
+    }
+    
+    .mainContent__topicsNewsSection__topicField__btnList{
+        gap: 1.5rem;
+    }
+
+    .mainContent__topicsNewsSection__topicField__btnList__listItem__btn{
+        font-size: 1.5rem;
+        padding: 1.5rem 2rem;
+    }
+
+    .mainContent__topicsNewsSection__newsField{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 5rem;
+    }
+
+    .mainContent__topicsNewsSection__newsField__textField{
+        width: 45%;
+    }
+
+    .mainContent__topicsNewsSection__newsField__textField__title{
+        font-size: 1.5rem;
+    }
+
+    .mainContent__topicsNewsSection__newsField__emailField{
+        width: 45%;
+        height: 2.5rem;
+    }
+}
