@@ -42,9 +42,14 @@
     }
 
 
-    .footer__topic__info__text{
+    .footer__topic__info__text a{
         color: var(--footer-topic-text-color);
         font-size: var(--smaller-font-size);
+        text-decoration: none;
+    }
+
+    .footer__topic__info__text a:hover{
+        color: var(--header-font-color);
     }
 
 }
