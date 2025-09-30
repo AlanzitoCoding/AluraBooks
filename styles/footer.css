@@ -13,7 +13,7 @@
 @media screen and (min-width: 1024px){
     .footer{
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
         padding: 1.5rem;
     }
 
@@ -31,6 +31,7 @@
         font-size: var(--smaller-font-size);
         color: var(--footer-border-color);
         margin-bottom: 1rem;
+        text-transform: uppercase;
     }
 
     .footer__topic__info{
