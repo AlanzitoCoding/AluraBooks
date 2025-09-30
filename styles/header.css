@@ -74,6 +74,10 @@
     display: none;
 }
 
+.header__text{
+    display: none;
+}
+
 .menu__checkbox:checked ~ .menu__list{
     display: block;
 }
@@ -134,5 +138,26 @@
 
     .fav__icon{
         display: none;
+    }
+}
+
+@media screen and (min-width: 1728px) {
+    .header__refs{
+        margin-right: 25rem;
+    }
+    
+    .header__icons:last-child{
+        margin-right: 5rem;
+    }
+
+    .header__anchor{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: var(--header-font-color);
+    }
+
+    .header__text{
+        display: block;
     }
 }
