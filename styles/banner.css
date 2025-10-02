@@ -68,3 +68,11 @@
         background-position: 5.75rem;
     }
 }
+
+@media screen and (min-width: 1720px){
+    .mainContent__banner{
+        padding: 5rem 40rem;
+    }
+
+    
+}
