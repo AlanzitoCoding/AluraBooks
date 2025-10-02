@@ -129,13 +129,15 @@
 
     .contentSection__infoSection{
         display: flex;
-        margin: 0 20vw 3em 20vw;
+        padding: 0 5rem 3em 5rem;
         align-items: center;
         gap: 5rem;
+        width: 90%;
+        justify-content: space-evenly;
     }
 
     .contentSection__booksCarousel{
-        width: 50%;
+        width: 40%;
     }
 
     .swiper-pagination{
@@ -148,9 +150,19 @@
 
     .swiper-wrapper{
         padding: 0.5rem 10rem;
+        gap: 5rem;
+    }
+
+    .swiper-slide{
+        width: 40%;
     }
 
     .contentSection__bookCard{
         width: 40%;
+        margin: 0;
+    }
+
+    .contentSection__bookCard__infoField__title{
+        font-size: 2rem;
     }
 }
