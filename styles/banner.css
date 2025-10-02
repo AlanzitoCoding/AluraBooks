@@ -5,6 +5,7 @@
     background: var(--tertiary-color);
     color: var(--secondary-color);
     text-align: center;
+    align-items: center;
     padding: 2.5rem 2rem;
     display: flex;
     flex-direction: column;
@@ -69,10 +70,13 @@
     }
 }
 
-@media screen and (min-width: 1720px){
+@media screen and (min-width: 1728px){
+
     .mainContent__banner{
-        padding: 5rem 40rem;
+        padding: 6rem 14.5;
     }
 
-    
+    .mainContent__banner__searchField{
+        width: 42%;
+    }
 }
